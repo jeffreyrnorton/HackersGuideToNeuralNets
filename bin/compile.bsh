@@ -1,0 +1,9 @@
+rm -rf WRK
+mkdir WRK
+cp ../src/Chapter1.ipynb WRK/Chapter1.ipynb
+ipython nbconvert --to markdown WRK/Chapter1.ipynb
+python3 preproc.py ../Chap1-Introduction.md > WRK/book.md
+cp ../src/RadialBasisFunctionNetwork.ipynb WRK/RadialBasisFunctionNetwork.ipynb 
+ipython nbconvert --to markdown WRK/RadialBasisFunctionNetwork.ipynb 
+cat WRK/RadialBasisFunctionNetwork.md >> WRK/book.md 
+
