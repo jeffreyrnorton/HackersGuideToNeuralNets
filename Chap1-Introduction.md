@@ -5,7 +5,7 @@ author: Jeffrey R. Norton
 ---
 The purpose of this document is to do a general review of as all neural nets.  This is a difficult prospect because the field moves quickly.  The objective is to provide guidance in designing neural networks.  The first step is to list the types and break down the functionality and objectives of the various parts of the neural network.  And as possible, there will be code fragments or references to frameworks such as Keras or Tensorflow for example solutions.
 
-![](http://www.asimovinstitute.org/wp-content/uploads/2016/09/neuralnetworks.png)
+![](images/neuralnetworks.png)
 
 **References**
 

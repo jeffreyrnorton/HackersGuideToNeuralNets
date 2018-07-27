@@ -6,4 +6,6 @@ python3 preproc.py ../Chap1-Introduction.md > WRK/book.md
 cp ../src/RadialBasisFunctionNetwork.ipynb WRK/RadialBasisFunctionNetwork.ipynb 
 ipython nbconvert --to markdown WRK/RadialBasisFunctionNetwork.ipynb 
 cat WRK/RadialBasisFunctionNetwork.md >> WRK/book.md 
-
+cp ../src/PageRankInPythonUsingMarkovChains.ipynb WRK/PageRankInPythonUsingMarkovChains.ipynb 
+ipython nbconvert --to markdown WRK/PageRankInPythonUsingMarkovChains.ipynb 
+python3 preproc.py ../Chap2-ProbablisticGraphicalModels.md > WRK/book.md
